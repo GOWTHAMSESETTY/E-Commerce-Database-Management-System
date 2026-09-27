@@ -75,6 +75,22 @@ The main relationships between the tables are:
 - GitHub
 
 
+## Project Structure
+
+```text
+E-Commerce-Database-Management-System/
+│
+├── queries/
+│   └── 01_basic_queries.sql
+│
+├── sql/
+│   ├── 01_schema.sql
+│   └── 02_sample_data.sql
+│
+├── .gitignore
+└── README.md
+```
+
 ## Project Setup
 
 ### 1. Create the Database
@@ -107,3 +123,4 @@ SHOW TABLES;
 ``` 
 
 You should see all 15 tables in the result.
+
